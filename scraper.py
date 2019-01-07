@@ -40,7 +40,7 @@ else:
 # executable included
 geckodriver = "browser/geckodriver.exe"
 options = webdriver.FirefoxOptions()
-# options.add_argument('-headless')
+options.add_argument('-headless')
 
 ffprofile = webdriver.FirefoxProfile("browser/profile")
 browser = webdriver.Firefox(ffprofile, executable_path=geckodriver, firefox_options=options)
