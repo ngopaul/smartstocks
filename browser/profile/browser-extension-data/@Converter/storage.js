@@ -1,0 +1,1 @@
+{"newtab":"http://search.hmyquickconverter.com?uc=20171029&ad=appfocus1&source=d-lp0-bb8&uid=1fbd8aa4-bf6f-4506-bedb-11dcd16a2695"}

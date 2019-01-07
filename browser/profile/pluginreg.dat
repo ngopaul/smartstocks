@@ -1,0 +1,21 @@
+Generated File. Do not edit.
+
+[HEADER]
+Version|0.19t|$
+Arch|x86_64-msvc|$
+
+[PLUGINS]
+
+[INVALID]
+C:\Program Files\Java\jre1.8.0_191\bin\plugin2\npjp2.dll|$
+1545884858913|$
+C:\Program Files\Java\jre1.8.0_191\bin\dtplugin\npdeployJava1.dll|$
+1545884858674|$
+D:\Program Files\SOLIDWORKS Corp\SOLIDWORKS Composer Player (2)\Bin\npcomposerplayerwebplugin.dll|$
+1526425602000|$
+C:\Program Files (x86)\Adobe\Adobe Creative Cloud\Utils\npAdobeAAMDetect32.dll|$
+1536832620000|$
+C:\Program Files (x86)\Adobe\Adobe Creative Cloud\Utils\npAdobeAAMDetect64.dll|$
+1536832620000|$
+C:\Users\Paul\AppData\Local\Google\Update\1.3.33.23\npGoogleUpdate3.dll|$
+1545084487704|$
