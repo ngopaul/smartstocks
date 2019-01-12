@@ -44765,3 +44765,624 @@ JavaScript error: https://www.nasdaq.com/symbol/eva/historical, line 6: Security
 JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
 JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
 JavaScript error: https://www.nasdaq.com/symbol/eva/historical, line 770: TypeError: document.getElementById(...) is null
+1547254777674	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\BRIANN~1\\AppData\\Local\\Temp\\rust_mozprofile.1RXwIMTBxoRW"
+1547254779632	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1547254779642	addons.webextension.{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}	WARN	Loading extension '{d10d0bf8-f5b5-c8b4-a8b2-2b9879e08c5d}': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1547254780168	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing background.persistent: Event pages are not currently supported. This will run as a persistent background page.
+1547254780172	addons.webextension.<unknown>	WARN	Loading extension 'null': Reading manifest: Error processing storage: An unexpected property was found in the WebExtension manifest.
+1547254780559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: resource://pdf.js/
+1547254780559	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid host permission: about:reader*
+JavaScript warning: moz-extension://8f0e285a-c02a-4cca-a7b3-5407c8f24b02/lib/adblockplus.js, line 0: Successfully compiled asm.js code (total compilation time 4ms; not stored in cache (too small to benefit))
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:750:13
+
+1547254781214	Marionette	INFO	Listening on port 62072
+1547254781564	Marionette	WARN	TLS certificate errors will be ignored for this session
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://8f0e285a-c02a-4cca-a7b3-5407c8f24b02/ext/background.js 148
+[[Exception stack
+updatePageFrameStructure@moz-extension://8f0e285a-c02a-4cca-a7b3-5407c8f24b02/ext/background.js:148:7
+@moz-extension://8f0e285a-c02a-4cca-a7b3-5407c8f24b02/ext/background.js:252:5
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:529:133
+fire@resource://gre/modules/ExtensionChild.jsm:990:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:993:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tvc/historical, line 3127: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tvc/historical, line 6: SecurityError: The operation is insecure.
+JavaScript warning: http://www.saigontivi.com/wp-content/plugins/yourchannel/js/yrc.js?1.3-pro, line 1410: unreachable code after return statement
+JavaScript error: http://www.saigontivi.com/wp-content/plugins/yottie-lite/assets/yottie-lite/dist/jquery.yottie-lite.bundled.js?ver=1.3.2, line 9: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tve/historical, line 3135: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tve/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tzac/historical, line 2979: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tzac/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tzacu/historical, line 3129: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tzacu/historical, line 6: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tzacw/historical, line 2977: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tzacw/historical, line 6: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tdc/historical, line 3143: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tdc/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/ter/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/ter/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: Error: Type error for parameter tabId (Integer -1 is too small (must be at least 0)) for tabs.get. moz-extension://8f0e285a-c02a-4cca-a7b3-5407c8f24b02/ext/background.js 148
+[[Exception stack
+updatePageFrameStructure@moz-extension://8f0e285a-c02a-4cca-a7b3-5407c8f24b02/ext/background.js:148:7
+@moz-extension://8f0e285a-c02a-4cca-a7b3-5407c8f24b02/ext/background.js:252:5
+Current stack
+applySafeWithoutClone@resource://gre/modules/ExtensionCommon.jsm:529:133
+fire@resource://gre/modules/ExtensionChild.jsm:990:28
+receiveMessage@resource://gre/modules/ExtensionChild.jsm:993:38
+_callHandlers/<@resource://gre/modules/MessageChannel.jsm:876:29
+_callHandlers@resource://gre/modules/MessageChannel.jsm:875:14
+_handleMessage/deferred.promise<@resource://gre/modules/MessageChannel.jsm:952:7
+_handleMessage@resource://gre/modules/MessageChannel.jsm:949:24
+receiveMessage/<@resource://gre/modules/MessageChannel.jsm:218:9
+receiveMessage@resource://gre/modules/MessageChannel.jsm:211:5
+]]
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+JavaScript error: resource://gre/modules/WebRequestContent.js, line 124: TypeError: window is null
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tex/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tex/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tx/historical, line 3140: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tx/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tx/historical, line 770: TypeError: document.getElementById(...) is null
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/terp/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/terp/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/trno/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/trno/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tbnk/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tbnk/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tsro/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tsro/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tsla/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tsla/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tess/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tess/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/ttek/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/ttek/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tti/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tti/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/ttph/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/ttph/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/teva/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/teva/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tcbi/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tcbi/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tcbil/historical, line 3099: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tcbil/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tcbip/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tcbip/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tcbiw/historical, line 3099: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tcbiw/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/txn/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/txn/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tpl/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tpl/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/txrh/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/txrh/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tgh/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tgh/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/txt/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/txt/historical, line 6: SecurityError: The operation is insecure.
+[Parent 16020, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 5916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tfsl/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tfsl/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tgtx/historical, line 3141: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tgtx/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/aes/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/aes/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/wter/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/wter/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/ande/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/ande/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tbbk/historical, line 3141: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tbbk/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/bprn/historical, line 3114: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/bprn/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/bprn/historical, line 770: TypeError: document.getElementById(...) is null
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/bx/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/bx/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/cg/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/cg/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/tcgp/historical, line 3099: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/tcgp/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/cee/historical, line 3138: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/cee/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/schw/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/schw/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/schw.c/historical, line 2988: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/schw.c/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/schw.d/historical, line 2988: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/schw.d/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/cake/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/cake/historical, line 6: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://rndntpmgnj-a.akamaihd.net/NA2L50A6M.js, line 1: SecurityError: The operation is insecure.
+Extension error: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIDOMWindowUtils.removeSheet]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://gre/modules/ExtensionCommon.jsm :: runSafeSyncWithoutClone :: line 65"  data: no] undefined 65
+[[Exception stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:65:12
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+Current stack
+runSafeSyncWithoutClone@resource://gre/modules/ExtensionCommon.jsm:67:129
+cleanup/<@resource://gre/modules/ExtensionContent.jsm:367:13
+]]
+JavaScript error: https://www.nasdaq.com/symbol/chef/historical, line 3139: ReferenceError: bk_addPageCtx is not defined
+JavaScript error: https://www.nasdaq.com/includes/cookie_policy.js?05232018v1, line 106: SecurityError: The operation is insecure.
+JavaScript error: https://www.nasdaq.com/symbol/chef/historical, line 6: SecurityError: The operation is insecure.
