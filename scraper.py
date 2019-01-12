@@ -10,6 +10,7 @@ from selenium.webdriver.support.ui import Select
 import pandas as pd
 from tabulate import tabulate
 from math import isnan
+from pathlib import Path
 
 ########################################################################################
 
@@ -98,6 +99,8 @@ browser.get(url1)
 browser_data = browser.page_source
 soup = BeautifulSoup(browser_data, 'html.parser')
 
+news = pd.DataFrame([],[],['Title', 'Desc', 'Date'])
+
 # Gets title, description, and date in the current timezone
 for article in soup.find_all('div', {'class' : 'xrnccd'}):
     title = article.find_all('span')[0].text.strip()
@@ -150,6 +153,9 @@ for article in soup.find_all('div', {'class' : 'xrnccd'}):
     change3day = after3day - float(stockStartValue)
     change1week = after1week - float(stockStartValue)
 
+    newstoadd = pd.DataFrame([[title, description, date.strftime("%Y-%m-%d %H:%M:%S")]], columns=['Title', 'Desc', 'Date'])
+    news = news.append(newstoadd)
+
     if got_color:
         print(
             Back.WHITE + Fore.BLACK + title, 
@@ -184,6 +190,15 @@ for article in soup.find_all('div', {'class' : 'xrnccd'}):
     
 if not got_color:
     print("Use 'pip install colorama' in order to get pretty colors.")
-print("If you see strange symbols and no colors, then use a different terminal - i.e. VS Code doesn't support these colors.")
+else:
+    print("If you see strange symbols and no colors, then use a different terminal - i.e. VS Code doesn't support these colors.")
+
+# Write the news to a csv file
+newsfilepath = "collect-news/" + symbol[0] + "/" + symbol + ".csv"
+newsfile = Path(newsfilepath)
+if newsfile.is_file():
+    news.to_csv(newsfilepath, mode='a', header=False)
+else:
+    news.to_csv(newsfilepath)
 
 browser.quit()
