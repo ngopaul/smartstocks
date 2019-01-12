@@ -76,15 +76,17 @@ ffprofile.set_preference('network.cookie.cookieBehavior', 2)
 browser = webdriver.Firefox(ffprofile, executable_path=geckodriver, firefox_options=options)
 
 start_index = 0
+end_index = sys.maxsize
 if __name__ == '__main__':
     try:
         start_index = int(sys.argv[1])
+        end_index = int(sys.argv[2])
     except:
         pass
 
 for row in ticker_info.itertuples(index=True, name='Pandas'):
     # start at the place where you want to start in the csv
-    if getattr(row, "Index") >= start_index:
+    if end_index >= getattr(row, "Index") >= start_index:
         # get all the data
         symbol = getattr(row, "Symbol").replace('^', '.').strip()
         name = getattr(row, "Name")
