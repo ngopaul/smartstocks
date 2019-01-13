@@ -1,26 +1,4 @@
-import sys
-import re
-from bs4 import BeautifulSoup
-import time
-from datetime import datetime
-from datetime import timedelta
-import os
-from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-import pandas as pd
-from tabulate import tabulate
-from math import isnan
-from pathlib import Path
-
-########################################################################################
-
-got_color = 0
-try:
-    from colorama import Fore, Back, Style
-    # raise Exception("I don't want to use colorama")
-    got_color = 1
-except:
-    print("Use 'pip install colorama' in order to get pretty colors.")
+from utils import *
 
 ########################################################################################
 
@@ -28,40 +6,28 @@ keyword = 'google'
 symbol = 'GOOG'
 
 if __name__ == "__main__":
-    keyword = sys.argv[1]
-    symbol = sys.argv[2]
-else:
-    print("Use the first argument to specify a keyword to search for news.\n",
-    "Use the second keyword to specify a ticker name, with a . for classes (i.e. BRK.A or BRK.B)\n",
-    "Using the default of google and GOOG.")
+    try:
+        keyword = sys.argv[1]
+        symbol = sys.argv[2]
+    except:
+        print("Use the first argument to specify a keyword to search for news.\n",
+        "Use the second keyword to specify a ticker name, with a . for classes (i.e. BRK.A or BRK.B)\n",
+        "Using the default of google and GOOG.")
+    
 
 ########################################################################################
 
 # executable included
 geckodriver = "browser/geckodriver.exe"
 options = webdriver.FirefoxOptions()
-options.add_argument('-headless')
+# options.add_argument('-headless')
 
 ffprofile = webdriver.FirefoxProfile("browser/profile")
+ffprofile.set_preference('browser.cache.disk.enable', True)
+ffprofile.set_preference('browser.cache.memory.enable', True)
+ffprofile.set_preference('browser.cache.offline.enable', True)
+ffprofile.set_preference('network.cookie.cookieBehavior', 1)
 browser = webdriver.Firefox(ffprofile, executable_path=geckodriver, firefox_options=options)
-
-""" Converts a MM/DD/YYYY string to a DateTime. """
-def strDateToDatetime(mmddyy):
-    [month, day, year] = map(lambda x : int(x), mmddyy.split('/'))
-    return datetime(year, month, day)
-
-""" Converts a DateTime object to a MM/DD/YYYY form. """
-def datetimeToSimpleDate(dt):
-    return dt.strftime("%m/%d/%Y")
-
-""" Converts a positive number to GREEN, a null or 0 to WHITE, and a negative to RED. """
-def stockColor(num):
-    if num > 0:
-        return Fore.GREEN
-    if num < 0:
-        return Fore.RED
-    else:
-        return Fore.WHITE
 
 url1 = "https://news.google.com/search?q=" + keyword # + "&hl=en-US&gl=US&ceid=US:en"
 url2 = "https://www.nasdaq.com/symbol/" + symbol.lower() + "/historical"
@@ -93,9 +59,16 @@ print("Got oldest date:", datetimeToSimpleDate(oldest_date))
 
 ########################################################################################
 
+if keyword == 'google':
+    url1 = "https://news.google.com/topics/CAAqBwgKMOjY3gow0cTWAQ"
+
 print("Scraping:", url1)
 
 browser.get(url1)
+
+# browser.find_element_by_css_selector(".Ax4B8").send_keys(u'\ue007')
+# time.sleep(3)
+
 browser_data = browser.page_source
 soup = BeautifulSoup(browser_data, 'html.parser')
 
@@ -103,8 +76,8 @@ news = pd.DataFrame([],[],['Title', 'Desc', 'Date'])
 
 # Gets title, description, and date in the current timezone
 for article in soup.find_all('div', {'class' : 'xrnccd'}):
-    title = article.find_all('span')[0].text.strip()
-    description = article.find_all('p', {'class' : 'HO8did Baotjf'})[0].text.strip()
+    title = reencodeUTF(article.find_all('span')[0].text.strip())
+    description = reencodeUTF(article.find_all('p', {'class' : 'HO8did Baotjf'})[0].text.strip())
     date = datetime.fromtimestamp(int(
         re.search(
             '(?<=(datetime="seconds: ))(\d)+', 
@@ -154,44 +127,23 @@ for article in soup.find_all('div', {'class' : 'xrnccd'}):
     change1week = after1week - float(stockStartValue)
 
     newstoadd = pd.DataFrame([[title, description, date.strftime("%Y-%m-%d %H:%M:%S")]], columns=['Title', 'Desc', 'Date'])
+    print( tabulate(newstoadd, headers='keys', tablefmt='psql') )
     news = news.append(newstoadd)
 
-    if got_color:
-        print(
-            Back.WHITE + Fore.BLACK + title, 
-            Back.BLACK + Fore.RED + "::", 
-            Fore.WHITE + description, 
-            Fore.RED + "::", 
-            Back.WHITE + Fore.BLUE + date.strftime("%Y-%m-%d %H:%M:%S"),
-            Back.BLACK + Fore.RED + "::", 
-            "\n",
-            stockColor(change1day) + "1D: " + str(change1day),
-            Fore.RED + "::", 
-            stockColor(change3day) + "3D: " + str(change3day),
-            Fore.RED + "::", 
-            stockColor(change1week) + "1W: " + str(change1week),
-        )
-    else:
-        print(
-            title, 
-            "::", 
-            description, 
-            "::", 
-            date.strftime("%Y-%m-%d %H:%M:%S"),
-            "::", 
-            "\n",
-            "1D: " + str(change1day),
-            "::", 
-            "3D: " + str(change3day),
-            "::", 
-            "1W: " + str(change1week),
-        )
-    
-    
-if not got_color:
-    print("Use 'pip install colorama' in order to get pretty colors.")
-else:
-    print("If you see strange symbols and no colors, then use a different terminal - i.e. VS Code doesn't support these colors.")
+    # print(
+    #     title, 
+    #     "::", 
+    #     description, 
+    #     "::", 
+    #     date.strftime("%Y-%m-%d %H:%M:%S"),
+    #     "::", 
+    #     "\n",
+    #     "1D: " + str(change1day),
+    #     "::", 
+    #     "3D: " + str(change3day),
+    #     "::", 
+    #     "1W: " + str(change1week),
+    # )
 
 # Write the news to a csv file
 newsfilepath = "collect-news/" + symbol[0] + "/" + symbol + ".csv"

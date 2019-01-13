@@ -1,62 +1,6 @@
-import pandas as pd
-from bs4 import BeautifulSoup
-from tabulate import tabulate
-from selenium import webdriver
-from selenium.webdriver.support.ui import Select
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.alert import Alert
-from selenium.webdriver.support import expected_conditions as EC
-import time
-import sys
-import datetime
+from utils import *
 
 ticker_info = pd.read_csv('company-symbol/ALL.csv')
-
-
-# Code taken from https://intoli.com/blog/clear-the-firefox-browser-cache/. Modified a bit to work
-
-# def get_clear_site_data_button(driver):
-#     return driver.find_element_by_css_selector('#clearSiteDataButton')
-
-
-# def get_clear_site_data_confirmation_button(driver):
-#     return driver.find_element_by_css_selector('#clearButton')
-
-# def clear_firefox_cache(driver, timeout=10):
-#     driver.get('about:preferences#privacy')
-#     wait = WebDriverWait(driver, timeout)
-#     # Click the "Clear Data..." button under "Cookies and Site Data".
-#     wait.until(get_clear_site_data_button)
-#     get_clear_site_data_button(driver).click()
-#     # Click the confirmation button
-#     wait.until(get_clear_site_data_confirmation_button)
-#     driver.find_element_by_css_selector('#clearButton').click()
-#     # driver.find_element_by_id('clearButton').click()
-#     # Accept the confirmation alert.
-#     wait.until(EC.alert_is_present())
-#     alert = Alert(driver)
-#     alert.accept()
-
-################################################################################
-
-""" Converts a DateTime object to a MM/DD/YYYY form. """
-def datetimeToSimpleDate(dt):
-    return dt.strftime("%m/%d/%Y")
-
-""" Returns if string is of the form XX:XX. """
-def matches_time(text):
-    if len(text) == 5 and text[2] == ':':
-        return True
-    return False
-
-def wait_to_load(browser, max_time):
-    count = 0
-    while 'style="opacity: 0.5;"' in browser.page_source:
-        time.sleep(0.5)
-        count += 0.5
-        if count >= max_time:
-            return False
-    return True
 
 curr_date = datetimeToSimpleDate(datetime.date.today())
 
