@@ -76,8 +76,8 @@ news = pd.DataFrame([],[],['Title', 'Desc', 'Date'])
 
 # Gets title, description, and date in the current timezone
 for article in soup.find_all('div', {'class' : 'xrnccd'}):
-    title = reencodeUTF(article.find_all('span')[0].text.strip())
-    description = reencodeUTF(article.find_all('p', {'class' : 'HO8did Baotjf'})[0].text.strip())
+    title = article.find_all('span')[0].text.strip()
+    description = article.find_all('p', {'class' : 'HO8did Baotjf'})[0].text.strip()
     date = datetime.fromtimestamp(int(
         re.search(
             '(?<=(datetime="seconds: ))(\d)+', 
