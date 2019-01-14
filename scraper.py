@@ -10,8 +10,8 @@ if __name__ == "__main__":
         keyword = sys.argv[1]
         symbol = sys.argv[2]
     except:
-        print("Use the first argument to specify a keyword to search for news.\n",
-        "Use the second keyword to specify a ticker name, with a . for classes (i.e. BRK.A or BRK.B)\n",
+        print("Use the first argument to specify a keyword to search for news.\n" + 
+        "Use the second keyword to specify a ticker name, with a . for classes (i.e. BRK.A or BRK.B).\n" + 
         "Using the default of google and GOOG.")
     
 
@@ -127,23 +127,23 @@ for article in soup.find_all('div', {'class' : 'xrnccd'}):
     change1week = after1week - float(stockStartValue)
 
     newstoadd = pd.DataFrame([[title, description, date.strftime("%Y-%m-%d %H:%M:%S")]], columns=['Title', 'Desc', 'Date'])
-    print( tabulate(newstoadd, headers='keys', tablefmt='psql') )
+    # print( tabulate(newstoadd, headers='keys', tablefmt='psql') )
     news = news.append(newstoadd)
 
-    # print(
-    #     title, 
-    #     "::", 
-    #     description, 
-    #     "::", 
-    #     date.strftime("%Y-%m-%d %H:%M:%S"),
-    #     "::", 
-    #     "\n",
-    #     "1D: " + str(change1day),
-    #     "::", 
-    #     "3D: " + str(change3day),
-    #     "::", 
-    #     "1W: " + str(change1week),
-    # )
+    print(
+        title, 
+        "::", 
+        description, 
+        "::", 
+        date.strftime("%Y-%m-%d %H:%M:%S"),
+        "::", 
+        "\n",
+        "1D: " + str(change1day),
+        "::", 
+        "3D: " + str(change3day),
+        "::", 
+        "1W: " + str(change1week),
+    )
 
 # Write the news to a csv file
 newsfilepath = "collect-news/" + symbol[0] + "/" + symbol + ".csv"
