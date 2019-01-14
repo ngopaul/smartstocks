@@ -2,7 +2,7 @@ from utils import *
 
 ticker_info = pd.read_csv('company-symbol/ALL.csv')
 
-curr_date = datetimeToSimpleDate(datetime.date.today())
+curr_date = datetimeToSimpleDate(date.today())
 
 print('Current Date:', curr_date)
 
@@ -81,8 +81,10 @@ for row in ticker_info.itertuples(index=True, name='Pandas'):
                 simplifieddf.at['Date', '1'] = curr_date
 
             simplifieddf.to_csv('collect-stocks/' + filename[0] + '/' + filename)
-            now = datetime.datetime.now()
+            now = datetime.now()
             print("Saved information to:",'collect-stocks/' + filename[0] + '/' + filename, "at", now.strftime("%Y-%m-%d %H:%M"))
         # if there is no data on the website, the table will not exist and an error will be thrown
         except:
             print("There was no data for this stock. Did not save any file.")
+
+browser.quit()

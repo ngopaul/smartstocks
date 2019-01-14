@@ -9,7 +9,7 @@ from pathlib import Path
 from tabulate import tabulate
 from bs4 import BeautifulSoup
 from selenium import webdriver
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, date
 from selenium.webdriver.common.alert import Alert
 from selenium.webdriver.support.ui import Select, WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
